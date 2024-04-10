@@ -7,7 +7,7 @@ import junit.framework.TestCase.assertEquals
 class ProductTest {
 
     @Test
-    fun `spaghetti`() {
+    fun spaghetti() {
         // Arrange
         val product = Product("Spaghetti", 20.00, 3)
         val discountPercent = 20
@@ -20,7 +20,7 @@ class ProductTest {
     }
 
     @Test
-    fun `steak`() {
+    fun steak() {
         // Arrange
         val product = Product("Steak", 30.00, 8)
         val discountPercent = 20 // Discount should not be applied
@@ -33,7 +33,7 @@ class ProductTest {
     }
 
     @Test
-    fun `lasagna`() {
+    fun lasagna() {
         // Arrange
         val product = Product("Lasagna", 10.00, 0)
         val discountPercent = 20
